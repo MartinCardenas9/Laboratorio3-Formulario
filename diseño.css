@@ -1,0 +1,50 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(MEDIA/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    font-family: Arial, sans-serif
+}
+input[type="text"],
+select, textarea {
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    color:#080808;
+    font-weight: bold;
+}
+form{
+        background-color: #59a5b3;
+        padding: 50px;
+        border-radius: px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;    
+            margin: 0 80px ;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
